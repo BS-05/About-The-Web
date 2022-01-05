@@ -1,0 +1,118 @@
+/* Imports */
+
+@import url(./base/imports.css);
+@import url(./layout/source-footer.css);
+
+body, a {
+    color: var(--white-color);
+}
+
+/* Recurring styles for "about" cards (div)*/
+
+.about-me-section, 
+.about-me-section a,
+.about-project-section {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.about-me-div,
+.about-project-div {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-color);
+    width: 100vh;
+    padding: 30px;
+}
+
+
+
+
+
+.about-me-section {
+    margin-bottom: 50px;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 30vh;
+    border-radius: 35px;
+    margin-bottom: 5px;
+}
+
+.profile-txt-div {
+    margin-bottom: 50px;
+}
+
+.profile-txt-div a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.profile-txt-div a:hover {
+    text-decoration: underline var(--red);
+}
+
+.about-me-h1 {
+    font-size: 25px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-txt {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 13px 10px 10px 10px;
+    font-size: 18px;
+}
+
+/* About Project Section */
+
+.about-project-h1 {
+    font-size: 30px;
+}
+
+.about-project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-project-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 13px 10px 10px 10px;
+    font-size: 18px;
+}
+
+.about-project-p {
+    padding-bottom: 20px;
+}
+
+.project-p2-assignment-txt,
+.project-p3 {
+    padding-bottom: 37px;
+}
+
+.project-p4 a {
+    color: cyan;
+    text-decoration: none;
+}
+
+.about-project-section {
+    margin-bottom: 50px;
+}

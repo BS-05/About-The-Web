@@ -1,0 +1,50 @@
+/* imports */
+
+@import url(./navigation.css);
+
+* {
+    color: #FFF;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-two {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+}
+
+.header-txt {
+    font-size: 100px;
+}
+
+.header-txt-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub-header-txt {
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.header-btn {
+    border: 2px solid #FFF;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    color: #FFF;
+}
+
+.header-btn-container {
+    padding-top: 70px;
+}
+
+.header-btn:hover {
+    transition: 200ms;
+    background-color: #FFF;
+    color: #000;
+}
+
+

@@ -1,0 +1,52 @@
+@import url(./base/reset.css);
+
+@import url(./utils/variables.css);
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: var(--main-black-color);
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+}
+
+.source-body-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.source-txt-div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 50px 20px;
+    font-size: 30px;
+}
+
+.sources-container {
+    display: flex;
+    justify-content: center;
+}
+
+.source-links {
+    line-height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.source-links:hover {
+    text-decoration: underline;
+}
+
+.source-links-ul li {
+    list-style-type: circle;
+    padding-bottom: 20px;
+}

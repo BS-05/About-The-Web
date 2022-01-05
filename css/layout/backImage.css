@@ -1,0 +1,9 @@
+body {
+    background-image: url(/images/55-555587_fireworks.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 2px;
+    width: 100%;
+}
